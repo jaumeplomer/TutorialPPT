@@ -16,6 +16,8 @@ public class PPT
 					case 1: System.out.println("Empat!"); break;
 					case 2: System.out.println("Guanyes!"); break;
 					case 3: System.out.println("Perds!"); break;
+					case 4: System.out.println("Perds!"); break;
+					case 5: System.out.println("Guanyes!"); break;
 				}
 				break;
 
@@ -26,6 +28,8 @@ public class PPT
 					case 1: System.out.println("Perds!"); break;
 					case 2: System.out.println("Empat!"); break;
 					case 3: System.out.println("Guanyes!"); break;
+					case 4: System.out.println("Guanyes!"); break;
+					case 5: System.out.println("Perds!"); break;
 				}
 				break;
 
@@ -36,6 +40,8 @@ public class PPT
 					case 1: System.out.println("Guanyes!"); break;
 					case 2: System.out.println("Perds!"); break;
 					case 3: System.out.println("Empat!"); break;
+					case 4: System.out.println("Perds!"); break;
+					case 5: System.out.println("Guanyes!"); break;
 				}
 				break;
 		}
@@ -46,9 +52,9 @@ public class PPT
 		Scanner teclat = new Scanner(System.in);
 /*----------------------------------------------------*/
 		tiradaMaquina = (int)(Math.random() * 3) + 1;
-		System.out.println("La maquina ja ha triat, i t eguanyara");
+		System.out.println("La maquina ja ha triat, i te guanyara");
 /*------------------------------------------------------*/
-		System.out.println("Tria: [1=Pedra, 2=Paper, 3=Tissores]: ");
+		System.out.println("Tria: [1=Pedra, 2=Paper, 3=Tissores, 4=Lagarto, 5=Spock]: ");
 		tiradaUsuari = teclat.nextInt();
 
 		System.out.println("La maquina havia triat: ");
