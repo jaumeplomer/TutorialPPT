@@ -46,8 +46,8 @@ public class PPT
 		Scanner teclat = new Scanner(System.in);
 /*----------------------------------------------------*/
 		tiradaMaquina = (int)(Math.random() * 3) + 1;
-		System.out.println("La maquina ja ha triat.");
-
+		System.out.println("La maquina ja ha triat, i t eguanyara");
+/*------------------------------------------------------*/
 		System.out.println("Tria: [1=Pedra, 2=Paper, 3=Tissores]: ");
 		tiradaUsuari = teclat.nextInt();
 
